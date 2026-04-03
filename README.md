@@ -4,10 +4,10 @@ This project is a small usable command-line application with Python fundamentals
 
 ## Design Decisions & Limitations
 
-Python- Is used for implementing the core logic.
-argparse(CLI)- The argparse module is used to create a command-line interface(CLI).
-JSON- Data is stored in Json file.
-Modular Design (Packages & Modules)- The project is structured into modules (models, service, storage, service, utils) inside a package.
+Python- Is used for implementing the core logic.  
+argparse(CLI)- The argparse module is used to create a command-line interface(CLI).  
+JSON- Data is stored in Json file.  
+Modular Design (Packages & Modules)- The project is structured into modules (models, service, storage, service, utils) inside a package.  
 
 ### How it works (Step by Step)
 ### Run the following command to generate sample data:
@@ -15,11 +15,7 @@ Modular Design (Packages & Modules)- The project is structured into modules (mod
 python -m scripts.seed
 ```
 ![alt text](images/Seed_C.png)
-#### This will automatically create:
-Students
-Courses
-Enrollments
-Grades
+#### This will automatically create: Students, Courses, Enrollments and Grades
 
 #### 1. Add a student
 ```bash
