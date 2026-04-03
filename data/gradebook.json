@@ -1,0 +1,66 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "Ai"
+        },
+        {
+            "id": 2,
+            "name": "Ajo"
+        },
+        {
+            "id": 3,
+            "name": "Ne/Ju"
+        },
+        {
+            "id": 4,
+            "name": "Filan"
+        }
+    ],
+    "courses": [
+        {
+            "code": "EE414",
+            "title": "Intro to EE"
+        },
+        {
+            "code": "MATH408",
+            "title": "Basic Math"
+        },
+        {
+            "code": "DAA411",
+            "title": "Intro to DAA"
+        }
+    ],
+    "enrollments": [
+        {
+            "student_id": 1,
+            "course_id": "EE414",
+            "grades": [
+                90,
+                85
+            ]
+        },
+        {
+            "student_id": 2,
+            "course_id": "EE414",
+            "grades": [
+                75
+            ]
+        },
+        {
+            "student_id": 3,
+            "course_id": "MATH408",
+            "grades": [
+                88,
+                92
+            ]
+        },
+        {
+            "student_id": 1,
+            "course_id": "DAA411",
+            "grades": [
+                95
+            ]
+        }
+    ]
+}
